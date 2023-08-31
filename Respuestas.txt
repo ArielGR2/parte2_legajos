@@ -1,0 +1,24 @@
+• ¿Qué pasa cuando se corre el comando “tsc”?
+    Se ejecuta el compilador que realiza la conversión desde lenguaje TypeScrip a JavaScript.
+
+• ¿Cómo está organizada una clase?
+    1-Atributos: variables internas de la clase.
+    2-Constructor: método particular que nos permite instanciar un objeto de la clase.
+    3-Métodos
+        Getters & Setters: elementos de la clase que nos permiten obtener
+     y modificar los estados de los atributoslos atributos.
+        Funcionalidades: elementos que nos permite interactuar con los objetos. 
+
+• ¿Es correcto que un método auxiliar de una clase sea público? ¿Por qué?
+    No es correcto que un método que se utiliza sólo dentro de una clase esté
+    disponible por fuera de ella.
+    El usuario no debe tener acceso a métodos que no necesita.
+
+• Enumerar las características de una interfaz.
+    1- Los atributos por defecto son finales. Ejemplo número PI
+    2- No permite implementar métodos.
+    3- Los métodos son publicos y abstractos.
+    4- Permite simular herencia múltiple, al poder implementar varias
+     interfaces en una misma clase.
+    5- Permite trabajar con objetos de distintas clases que hayan implementado
+     la misma interface.

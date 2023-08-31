@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Colegio_1 = require("./Colegio");
+var Alumno_1 = require("./Alumno");
+var Materia_1 = require("./Materia");
+var colegio1 = new Colegio_1.Colegio("Esc Normal");
+var alumno1 = new Alumno_1.Alumno("Ariel", 32000000);
+//let materia1 = new Materia("Lengua", 7);
+alumno1.cargaMaterias(new Materia_1.Materia("Lengua", 7));
+alumno1.cargaMaterias(new Materia_1.Materia("Fisica", 10));
+alumno1.cargaMaterias(new Materia_1.Materia("Historia", 4));
+alumno1.cargaMaterias(new Materia_1.Materia("Matematica", 10));
+alumno1.calculaPromedioAlumno();
+colegio1.calculaPromedioTotal();
+colegio1.muestraPromedio(32000000);
